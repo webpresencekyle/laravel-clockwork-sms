@@ -1,0 +1,25 @@
+{
+    "name": "arjasco/laravel-clockwork-sms-notifications",
+    "description": "A Laravel notification package for Clockwork SMS",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Costello",
+            "email": "home@arjas.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Arjasco\\ClockworkSms\\" : "src/"
+        }
+    },
+    "require": {
+        "mediaburst/clockworksms": "2.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2",
+        "mockery/mockery": "^1.1",
+        "illuminate/notifications": "^5.6"
+    }
+}
